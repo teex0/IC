@@ -540,22 +540,23 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DPST_x2"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "H"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DPST_x2"
-				(at 0 -2.54 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -580,7 +581,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -589,7 +590,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -598,35 +599,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_DPST_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 0 1.27)
+					(radius 1.27)
 					(stroke
-						(width 0)
+						(width 1.27)
 						(type default)
 					)
 					(fill
@@ -634,11 +621,11 @@
 					)
 				)
 			)
-			(symbol "SW_DPST_x2_1_1"
-				(pin passive line
-					(at -5.08 0 0)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -646,62 +633,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPST_x2_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1220,12 +1151,6 @@
 		(uuid "41b19ee6-7f5c-48cb-9f7d-a1f9807748bb")
 	)
 	(junction
-		(at 81.28 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "480e6425-ad25-4169-b53d-2615ac376e53")
-	)
-	(junction
 		(at 262.89 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1244,6 +1169,12 @@
 		(uuid "5c4572ba-0b1a-4f10-bc8c-99396fb7613c")
 	)
 	(junction
+		(at 109.22 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62188072-7069-475d-a3d5-afac45eb713b")
+	)
+	(junction
 		(at 203.2 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1254,6 +1185,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68ac130e-faac-412c-a693-9b3ea95d5f10")
+	)
+	(junction
+		(at 81.28 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76ffee87-eb65-40e5-803a-e5a4f38d00cc")
 	)
 	(junction
 		(at 139.7 57.15)
@@ -1380,12 +1317,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0568b58-0778-4dc5-ae40-a748bba4a31f")
-	)
-	(junction
-		(at 109.22 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7c4fa41-496c-403a-917e-4358de683357")
 	)
 	(wire
 		(pts
@@ -1669,13 +1600,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 81.28 57.15)
+			(xy 109.22 57.15) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50469618-9d11-4fa8-871e-abb0cd4dafd4")
+		(uuid "4cd65a3e-2ec9-417a-9293-95ebeeaa0220")
 	)
 	(wire
 		(pts
@@ -1706,16 +1637,6 @@
 			(type default)
 		)
 		(uuid "5b7b95e1-7ec8-4da0-a971-a0fc25cf5acc")
-	)
-	(wire
-		(pts
-			(xy 109.22 57.15) (xy 124.46 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d5f43d5-9f4f-490b-9215-a0a04d94eee8")
 	)
 	(wire
 		(pts
@@ -2407,6 +2328,16 @@
 		)
 		(uuid "fb5967ec-0625-44cc-a638-1ccf1528f863")
 	)
+	(wire
+		(pts
+			(xy 81.28 38.1) (xy 81.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcca060a-678d-4297-bb31-38d6ecd44fa4")
+	)
 	(text "NUC\n"
 		(exclude_from_sim no)
 		(at 82.55 24.638 0)
@@ -2560,33 +2491,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPST_x2")
-		(at 86.36 57.15 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 83.82 57.15 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32c8bdef-3208-4b5d-9dff-203fe0adb587")
-		(property "Reference" "SW1"
-			(at 86.36 50.8 0)
+		(uuid "2c793496-31a3-4de2-96f2-b6fc65424799")
+		(property "Reference" "H3"
+			(at 87.63 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_DPST_x2"
-			(at 86.36 53.34 0)
+		(property "Value" "MountingHole_Pad"
+			(at 87.63 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 57.15 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 83.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 57.15 0)
+			(at 83.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,31 +2536,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 86.36 57.15 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 83.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "b0858609-25e9-4c6d-99cf-8c15a5e0ec0b")
-		)
-		(pin "4"
-			(uuid "d6685b16-a599-4fd1-b86d-5388a8dedad0")
-		)
-		(pin "3"
-			(uuid "eef90a52-53ba-493d-89c3-e9a8ca9add3d")
 		)
 		(pin "1"
-			(uuid "38baf56e-92d9-4e8e-94fc-72926fa8907c")
+			(uuid "35106ed1-67fa-4eb8-8170-863acff39020")
 		)
 		(instances
 			(project ""
 				(path "/e3dae42a-1d97-46f0-98f1-701c272a6f88"
-					(reference "SW1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4938,7 +4862,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5400")
-		(at 109.22 53.34 270)
+		(at 109.22 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4952,7 +4876,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1N5400"
@@ -4961,11 +4885,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 104.775 53.34 0)
+			(at 113.665 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,6 +5525,73 @@
 			(project "placa de potencia"
 				(path "/e3dae42a-1d97-46f0-98f1-701c272a6f88"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 54.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c1cbc9-516d-41b6-b89f-ce342c7c0afb")
+		(property "Reference" "H1"
+			(at 93.98 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 93.98 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f78a332-5356-4792-943b-e189b247be26")
+		)
+		(instances
+			(project ""
+				(path "/e3dae42a-1d97-46f0-98f1-701c272a6f88"
+					(reference "H1")
 					(unit 1)
 				)
 			)
