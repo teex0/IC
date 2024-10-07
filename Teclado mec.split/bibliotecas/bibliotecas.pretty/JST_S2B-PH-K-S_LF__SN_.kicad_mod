@@ -1,0 +1,225 @@
+(footprint "JST_S2B-PH-K-S_LF__SN_"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.776 -2.6398 0)
+		(layer "F.SilkS")
+		(uuid "f0e8118f-387d-4a2b-add7-307c7fd7bd1a")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_S2B-PH-K-S_LF__SN_"
+		(at 3.4056 6.8952 0)
+		(layer "F.Fab")
+		(uuid "ec8074d0-be30-4695-9acc-77a52f11ea58")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "087f098d-a3c6-43c4-8540-beb40474b6f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5bf222c-f54f-4e45-99d7-1d7f01de8c44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ad90a3c-4ed9-4ba0-9ee6-56f8b5af094f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.95 -1.35)
+		(end 2.95 -1.35)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "139177a8-42a4-4ec8-8675-48852170d35e")
+	)
+	(fp_line
+		(start -2.95 6.25)
+		(end -2.95 -1.35)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f4ea3e0-edd9-4f04-91f9-2c9ddd117f99")
+	)
+	(fp_line
+		(start 2.95 -1.35)
+		(end 2.95 6.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b0d91b2-db9d-4d54-b101-a2f6874cbb98")
+	)
+	(fp_line
+		(start 2.95 6.25)
+		(end -2.95 6.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67fd8036-4ac5-457b-89b8-5bfb308ed69e")
+	)
+	(fp_circle
+		(center -1 -1.9)
+		(end -0.9 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f88c0f94-be60-4631-b8c6-5771fa63b949")
+	)
+	(fp_line
+		(start -3.2 -1.6)
+		(end 3.2 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03809298-cbd9-4e0e-994d-a4bd45fb54f8")
+	)
+	(fp_line
+		(start -3.2 6.5)
+		(end -3.2 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "710be4f0-8bdf-4428-8067-49d85fec27e0")
+	)
+	(fp_line
+		(start 3.2 -1.6)
+		(end 3.2 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3ec8f53-dd4f-42bf-9ddc-4e3f2a8e4e53")
+	)
+	(fp_line
+		(start 3.2 6.5)
+		(end -3.2 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "680060ce-d1e3-47cb-984b-edd0f7af0a68")
+	)
+	(fp_line
+		(start -2.95 -1.35)
+		(end 2.95 -1.35)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0012afe-d680-4d41-9761-a180baf910e6")
+	)
+	(fp_line
+		(start -2.95 6.25)
+		(end -2.95 -1.35)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c216b5a8-235b-4dde-bfd7-6e53a8e008c8")
+	)
+	(fp_line
+		(start 2.95 -1.35)
+		(end 2.95 6.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c2ef7a2-aad5-4c72-8617-028a87cae39e")
+	)
+	(fp_line
+		(start 2.95 6.25)
+		(end -2.95 6.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0191e28-bd9c-4c2c-9898-c521d3874cc5")
+	)
+	(fp_circle
+		(center -1 -1.9)
+		(end -0.9 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "75cca3ab-b13e-4a61-8d33-6d8aebc70bbf")
+	)
+	(pad "1" thru_hole rect
+		(at -1 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e4bee1fc-655a-4fe1-8829-873aa1b1869e")
+	)
+	(pad "2" thru_hole circle
+		(at 1 0)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "be4e5019-0780-42ec-9d74-a135f12a680a")
+	)
+)

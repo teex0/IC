@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/Tex/Desktop/teclado/Library.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/Tex/Desktop/teclado/scottokeebs-main/Extras/ScottoKicad/footprints.pretty")(options "")(descr ""))
+  (lib (name "teclado")(type "KiCad")(uri "C:/Users/Tex/Desktop/teclado.pretty")(options "")(descr ""))
+  (lib (name "bibliotecas")(type "KiCad")(uri "C:/Users/robof/OneDrive/Área de Trabalho/Henrique Teixeira/teclado/bibliotecas.pretty")(options "")(descr ""))
+  (lib (name "TP4056-18650-master")(type "KiCad")(uri "C:/Users/robof/OneDrive/Área de Trabalho/Henrique Teixeira/teclado/bibliotecas/TP4056-18650-master.pretty")(options "")(descr ""))
+)
