@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*%
+%TF.CreationDate,2025-05-15T16:35:35-03:00*%
+%TF.ProjectId,strain gauge,73747261-696e-4206-9761-7567652e6b69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2025-05-15 16:35:35*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X136575000Y-93625000D02*
+X186575000Y-93625000D01*
+X186575000Y-137625000D01*
+X136575000Y-137625000D01*
+X136575000Y-93625000D01*
+M02*

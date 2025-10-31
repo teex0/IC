@@ -1,0 +1,10595 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c7acfeaf-365e-4107-9e74-74c83d2b4de2")
+	(paper "A4")
+	(title_block
+		(title "Strain Gauge PCB")
+		(date "2025-04-25")
+		(company "RoboFEI Humanoid")
+		(comment 1 "Design by: Henrique Teixeira")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MCU_Module:Arduino_Nano_v3.x"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at -10.16 23.495 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Arduino_Nano_v3.x"
+				(at 5.08 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Module:Arduino_Nano"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Arduino Nano v3.x"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Arduino nano microcontroller module USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Arduino*Nano*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Arduino_Nano_v3.x_0_1"
+				(rectangle
+					(start -10.16 22.86)
+					(end 10.16 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Arduino_Nano_v3.x_1_1"
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "D1/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 25.4 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "D0/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 25.4 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 25.4 270)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+3V3"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#+3V3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:ADS1262"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SUSTAINA-StrainGauge-Sensing-Board:SOP65P640X120-28N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADS1262_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -58.42)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 27.94 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 -58.42) (xy 0 -58.42)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 -58.42) (xy 27.94 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ADS1262"
+					(at 12.7 2.54 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -33.02 0)
+					(length 5.08)
+					(name "AIN8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -17.78 180)
+					(length 5.08)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -25.4 180)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -20.32 180)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -22.86 180)
+					(length 5.08)
+					(name "DOUT/~{DRDY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -27.94 180)
+					(length 5.08)
+					(name "~{DRDY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -38.1 180)
+					(length 5.08)
+					(name "XTAL1/CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -35.56 180)
+					(length 5.08)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -43.18 0)
+					(length 5.08)
+					(name "BYPASS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -43.18 180)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -35.56 0)
+					(length 5.08)
+					(name "AIN9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -15.24 180)
+					(length 5.08)
+					(name "~{RESET}/~{PWDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "AIN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "AIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -22.86 0)
+					(length 5.08)
+					(name "AIN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -25.4 0)
+					(length 5.08)
+					(name "AIN5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -27.94 0)
+					(length 5.08)
+					(name "AIN6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -30.48 0)
+					(length 5.08)
+					(name "AIN7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -38.1 0)
+					(length 5.08)
+					(name "AINCOM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -48.26 0)
+					(length 5.08)
+					(name "CAPP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -50.8 0)
+					(length 5.08)
+					(name "CAPN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -55.88 0)
+					(length 5.08)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "REFOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -12.7 180)
+					(length 5.08)
+					(name "START"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SUSTAINA-StrainGauge-Sensing-Board:R0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, American symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-US_R0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 196.85 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b621351-28ba-45f9-ba12-7c07071c1ea9")
+	)
+	(junction
+		(at 144.78 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ae45918-a46a-4533-8663-8ca651360e1f")
+	)
+	(junction
+		(at 252.73 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50329d16-bc07-40f7-b7fb-e5793e7f034a")
+	)
+	(junction
+		(at 208.28 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c0ef8f-59f7-420f-bf7f-abd4a8e33680")
+	)
+	(junction
+		(at 165.1 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5374c684-a6da-4639-94c4-3a1d3e71eb7a")
+	)
+	(junction
+		(at 189.23 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55bc0d01-7379-489c-9ff2-78ceaa395979")
+	)
+	(junction
+		(at 252.73 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57023bd5-d3ec-4d58-8b04-63f6b327840b")
+	)
+	(junction
+		(at 248.92 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58ebf345-224f-44b8-8417-b0d2f33fc28e")
+	)
+	(junction
+		(at 189.23 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61f28c87-ed40-4a1a-ae9f-0caab74e95d5")
+	)
+	(junction
+		(at 196.85 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d897a6e-7799-453a-8154-e201145f128c")
+	)
+	(junction
+		(at 252.73 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79db633b-a7f1-467a-8473-a70d38a5bd02")
+	)
+	(junction
+		(at 196.85 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e94e7b9-1963-42e8-a9c4-8f7a67ead296")
+	)
+	(junction
+		(at 270.51 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81653b59-751e-42c8-8421-2f2ab4868a71")
+	)
+	(junction
+		(at 245.11 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "820277e8-9257-4269-a87b-efe1a64f0608")
+	)
+	(junction
+		(at 245.11 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "830f83cb-cee0-447c-bdde-041eabd05f2f")
+	)
+	(junction
+		(at 81.28 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99b5b144-4aef-47d8-adbf-d79a8799369b")
+	)
+	(junction
+		(at 73.66 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97249fe-271c-45df-b980-dad3533dc1c6")
+	)
+	(junction
+		(at 252.73 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abcd6c9a-521e-42b6-bf6d-a8880a61fd12")
+	)
+	(junction
+		(at 243.84 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcbb809f-a5e8-4de1-af6a-7af2d1f7d045")
+	)
+	(junction
+		(at 214.63 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf632e06-4b95-4f4d-8334-dd5ff7e59560")
+	)
+	(junction
+		(at 142.24 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d36dd5de-a375-4f9a-a056-389ec8666bc6")
+	)
+	(junction
+		(at 196.85 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d90e88be-6428-4c12-9643-0c7738a0387c")
+	)
+	(junction
+		(at 214.63 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15fcde8-7e0b-4bdb-8a1d-80ba6e76795b")
+	)
+	(junction
+		(at 270.51 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5baac9d-27aa-48d4-9b07-04921f276d0a")
+	)
+	(junction
+		(at 213.36 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3941f18-a96f-41ef-82e7-4b52c330d35b")
+	)
+	(wire
+		(pts
+			(xy 252.73 88.9) (xy 252.73 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "014484b8-7f2a-47c3-8593-ff3614937363")
+	)
+	(wire
+		(pts
+			(xy 217.17 30.48) (xy 212.09 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0236c64b-aba7-42b1-9145-f17f4d190e36")
+	)
+	(wire
+		(pts
+			(xy 78.74 171.45) (xy 87.63 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02aacef8-3847-4174-9dea-1b6459018bc6")
+	)
+	(wire
+		(pts
+			(xy 273.05 76.2) (xy 267.97 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "032061b9-4443-4c87-b353-82fb299afcc7")
+	)
+	(wire
+		(pts
+			(xy 214.63 93.98) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "034b32f8-8fcf-4a12-b661-e76fa130cd8a")
+	)
+	(wire
+		(pts
+			(xy 217.17 86.36) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "040a6490-7593-4d20-b27b-accb699074fe")
+	)
+	(wire
+		(pts
+			(xy 219.71 48.26) (xy 214.63 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "04c0df70-c130-4508-8606-852f7de33375")
+	)
+	(wire
+		(pts
+			(xy 73.66 41.91) (xy 66.04 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "081694ce-5019-4f29-9cf4-7b8375ad12e0")
+	)
+	(wire
+		(pts
+			(xy 209.55 154.94) (xy 213.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d10bbf-4f74-488a-a030-9f8a1eee4d7b")
+	)
+	(wire
+		(pts
+			(xy 196.85 78.74) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "092a4c50-7447-4e2b-944c-c9fe0ef159be")
+	)
+	(polyline
+		(pts
+			(xy 181.61 13.208) (xy 284.988 13.462)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "09faa4b2-087b-4d47-841b-b643715ac920")
+	)
+	(wire
+		(pts
+			(xy 243.84 142.24) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2af8ec-e4e1-4afb-9c0b-37094019e492")
+	)
+	(wire
+		(pts
+			(xy 189.23 76.2) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b6980f7-0aee-4357-b99d-6c926f46ee16")
+	)
+	(wire
+		(pts
+			(xy 245.11 58.42) (xy 245.11 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0da69235-294e-4bb7-b2f8-62be6268f54a")
+	)
+	(wire
+		(pts
+			(xy 267.97 88.9) (xy 275.59 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0e6a352c-9d72-4739-a25c-98f6d229956d")
+	)
+	(wire
+		(pts
+			(xy 142.24 36.83) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0f247474-3eb6-4146-acad-affe6f05d82a")
+	)
+	(polyline
+		(pts
+			(xy 181.356 122.174) (xy 284.988 122.174)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "0f51d6e3-2314-4512-9513-53033f59b195")
+	)
+	(wire
+		(pts
+			(xy 107.95 125.73) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1451f168-8617-429e-a733-ef9fbd698f58")
+	)
+	(wire
+		(pts
+			(xy 196.85 88.9) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16c4fe4b-4093-4a95-bd07-4ebdcc38e41f")
+	)
+	(wire
+		(pts
+			(xy 78.74 158.75) (xy 87.63 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab051a0-fe22-4f01-a9e7-a1eb2d9c3777")
+	)
+	(polyline
+		(pts
+			(xy 285.242 13.716) (xy 285.242 61.722)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "1afd64f0-5983-4d6e-bd2e-4932d686cc01")
+	)
+	(wire
+		(pts
+			(xy 102.87 127) (xy 102.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7e45e1-2b7f-4625-ab45-0254dc5a2505")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4c38d2-e189-42c6-939b-b37e7aee986c")
+	)
+	(wire
+		(pts
+			(xy 189.23 104.14) (xy 189.23 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "219cd6f5-9af8-4c44-a944-9d0b1cead206")
+	)
+	(wire
+		(pts
+			(xy 101.6 52.07) (xy 96.52 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21df371e-3423-4027-9da5-c071872ec6e2")
+	)
+	(wire
+		(pts
+			(xy 73.66 52.07) (xy 73.66 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "22703bd1-10a4-4f72-a183-76f9c4455ed9")
+	)
+	(wire
+		(pts
+			(xy 189.23 30.48) (xy 187.96 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23805d3e-003c-4bfc-a716-628670a6d40e")
+	)
+	(wire
+		(pts
+			(xy 81.28 41.91) (xy 81.28 36.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "26a163fc-8c3f-452e-a1b7-6fc4886447de")
+	)
+	(wire
+		(pts
+			(xy 245.11 96.52) (xy 245.11 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2778d6bd-0aed-4483-be05-087805ea53bf")
+	)
+	(wire
+		(pts
+			(xy 270.51 45.72) (xy 270.51 27.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2872a72c-2e26-43b5-b6df-b39e5394a15d")
+	)
+	(wire
+		(pts
+			(xy 248.92 142.24) (xy 248.92 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b20f16c-e01f-4bc7-8a4d-d57826154af2")
+	)
+	(wire
+		(pts
+			(xy 73.66 59.69) (xy 73.66 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c20aa4e-9cc9-47c9-a841-1c385bf3c7b5")
+	)
+	(wire
+		(pts
+			(xy 252.73 40.64) (xy 252.73 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2f6ce76b-d461-43fa-afa3-e7e498f85a25")
+	)
+	(wire
+		(pts
+			(xy 220.98 153.67) (xy 220.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffd84f0-fdf1-482b-bd44-fce7fe967221")
+	)
+	(wire
+		(pts
+			(xy 252.73 104.14) (xy 252.73 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "316b7675-978d-4405-9d53-14066ede1a60")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 96.52 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "37e7f09b-1e91-4b8e-85d1-d6b4aa36ae58")
+	)
+	(wire
+		(pts
+			(xy 252.73 86.36) (xy 252.73 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38c66cfb-22e8-4a46-91dc-345ff35b0b3e")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 144.78 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3a9673d2-eac1-4034-a919-8ba2b30592eb")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3b060ade-605d-4ade-8fc4-586da6f8b30d")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3bbbd93b-cebc-42f8-bcb0-bf50c6a048f3")
+	)
+	(wire
+		(pts
+			(xy 245.11 30.48) (xy 240.03 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3bc00b57-3a07-4dcf-b068-ec02bc857acf")
+	)
+	(wire
+		(pts
+			(xy 219.71 86.36) (xy 217.17 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3e545f71-7eef-4ad2-84b0-6d083b4efe95")
+	)
+	(wire
+		(pts
+			(xy 78.74 161.29) (xy 87.63 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8b0344-f86c-47e5-a305-0304b909f188")
+	)
+	(wire
+		(pts
+			(xy 101.6 46.99) (xy 81.28 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3fdcb1c0-1ff6-4d0a-9736-d43913deeb0e")
+	)
+	(wire
+		(pts
+			(xy 257.81 152.4) (xy 246.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b86edc-e9c6-400c-86bc-720c8af6f09b")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "42e087e1-f1ce-4b3d-9d51-ae42cd154bef")
+	)
+	(wire
+		(pts
+			(xy 270.51 48.26) (xy 270.51 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "430c85d0-f0bf-4af6-895b-ed13716f59a5")
+	)
+	(wire
+		(pts
+			(xy 81.28 90.17) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44845948-5a2c-4eae-ba5d-3ec053963bee")
+	)
+	(polyline
+		(pts
+			(xy 285.242 61.722) (xy 285.242 186.944)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "44b8dde6-0917-447e-8c98-b0af5e75d7d2")
+	)
+	(wire
+		(pts
+			(xy 217.17 76.2) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "45dcc9f8-93c2-429f-827a-fede2d1ccd1d")
+	)
+	(wire
+		(pts
+			(xy 105.41 127) (xy 105.41 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a72a9b0-3ed9-4c63-b1f0-0ca2ae6630db")
+	)
+	(wire
+		(pts
+			(xy 252.73 88.9) (xy 240.03 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ab730ad-2f01-4058-ac38-3d862ddfbb77")
+	)
+	(wire
+		(pts
+			(xy 252.73 43.18) (xy 240.03 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ecb892f-870e-4c67-abad-1e18ea29c06f")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 73.66 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "50491c13-1b2d-48fc-b3c2-12ea31dd867b")
+	)
+	(wire
+		(pts
+			(xy 275.59 91.44) (xy 270.51 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "537873ac-4b76-473c-a547-ddd9138b6bd2")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53caa140-1656-4b58-9ef4-686dec8d3bf1")
+	)
+	(polyline
+		(pts
+			(xy 181.356 13.462) (xy 181.356 61.468)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "56edd344-856f-4f8e-a7e6-c1504466709f")
+	)
+	(wire
+		(pts
+			(xy 81.28 46.99) (xy 81.28 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5733486e-b6d1-4482-9fe0-3168d36ee3b1")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 66.04 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5735f2a4-31ca-4c18-901c-ca2aa50b6a55")
+	)
+	(wire
+		(pts
+			(xy 214.63 26.67) (xy 214.63 25.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59130546-73e2-4bb0-95a3-410d3bf2be2d")
+	)
+	(polyline
+		(pts
+			(xy 12.192 107.442) (xy 181.61 107.188)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "5988e01c-ff9f-4e72-a189-c0698ac27526")
+	)
+	(wire
+		(pts
+			(xy 219.71 93.98) (xy 214.63 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c19fdbd-38d9-47ea-8a9d-25078a48f9cf")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 101.6 125.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c20e559-edeb-4a98-8f38-a3a7cac8a22e")
+	)
+	(wire
+		(pts
+			(xy 257.81 88.9) (xy 252.73 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d93efae-80b8-4874-a1da-0288dbfe5e11")
+	)
+	(wire
+		(pts
+			(xy 219.71 40.64) (xy 217.17 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e23b8e1-e8fa-41bd-90d7-eddce69c046d")
+	)
+	(wire
+		(pts
+			(xy 172.72 41.91) (xy 172.72 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f983f9d-ab73-4e6a-ac9c-a086c0081ff0")
+	)
+	(wire
+		(pts
+			(xy 139.7 59.69) (xy 144.78 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "601029dc-2892-4909-adf5-a2d870760bb8")
+	)
+	(wire
+		(pts
+			(xy 142.24 54.61) (xy 144.78 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60317e12-6d4f-4d26-9339-f38f75f26a00")
+	)
+	(polyline
+		(pts
+			(xy 181.356 61.468) (xy 180.594 185.674)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "638fd406-9671-41e6-a08f-02c481f1b9d6")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 81.28 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "642c8401-083d-4129-b4cb-3aa7da31cbc7")
+	)
+	(wire
+		(pts
+			(xy 139.7 41.91) (xy 165.1 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6454eca1-9f71-4d21-b047-3c4ff55fc6d0")
+	)
+	(wire
+		(pts
+			(xy 214.63 73.66) (xy 214.63 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64ee8b9f-7d9f-4dc1-b761-6b02c1301536")
+	)
+	(wire
+		(pts
+			(xy 73.66 97.79) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "68c69e70-6e0e-4684-b1ec-3ca7bb00f379")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 96.52 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "69559928-cdc2-45da-bdfb-d60196cd3518")
+	)
+	(wire
+		(pts
+			(xy 270.51 27.94) (xy 270.51 25.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6d67e56f-9c98-49ba-9276-cbab66ac0342")
+	)
+	(wire
+		(pts
+			(xy 78.74 163.83) (xy 87.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d0a599-8556-4203-ac42-c9c6c937413d")
+	)
+	(wire
+		(pts
+			(xy 101.6 64.77) (xy 96.52 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71f8290c-5501-407d-a9b9-260967b2cda2")
+	)
+	(polyline
+		(pts
+			(xy 13.208 61.976) (xy 13.462 186.436)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "74572c05-174b-4196-be38-c96492e6c561")
+	)
+	(wire
+		(pts
+			(xy 214.63 91.44) (xy 214.63 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7512d857-4e25-46fd-b90b-5a05e41abb8b")
+	)
+	(wire
+		(pts
+			(xy 245.11 76.2) (xy 252.73 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "75472d25-3617-408a-99d0-f6975cb6b852")
+	)
+	(wire
+		(pts
+			(xy 165.1 54.61) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "763aec75-4544-44b1-b23e-e04c97a0f46d")
+	)
+	(wire
+		(pts
+			(xy 196.85 43.18) (xy 196.85 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7935392b-d9e5-4619-a525-c9382f6557b8")
+	)
+	(wire
+		(pts
+			(xy 66.04 82.55) (xy 66.04 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a32660d-9081-4321-8a18-1e5ff488e66c")
+	)
+	(wire
+		(pts
+			(xy 139.7 52.07) (xy 144.78 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81e5be73-cb64-4d6d-a70b-5d38c4483563")
+	)
+	(wire
+		(pts
+			(xy 252.73 76.2) (xy 257.81 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "845208c7-896d-43ae-9754-0c2dd8d2fb2d")
+	)
+	(wire
+		(pts
+			(xy 270.51 73.66) (xy 270.51 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88889032-0d0b-43e2-8546-4051e3131e32")
+	)
+	(polyline
+		(pts
+			(xy 13.208 13.97) (xy 13.208 61.976)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "89ece8e2-a39e-43b4-aeae-8353ead6cbb8")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 96.52 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8d545ce8-0814-44ef-81b9-55065df90dd1")
+	)
+	(wire
+		(pts
+			(xy 196.85 86.36) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8e8d2dd8-b163-43b7-bd05-cc1c3d267577")
+	)
+	(wire
+		(pts
+			(xy 245.11 104.14) (xy 245.11 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8ec1caa1-93f1-4691-83a3-89749da9dc62")
+	)
+	(wire
+		(pts
+			(xy 81.28 59.69) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "915fc33f-3ed4-4bef-a538-da5230757ca4")
+	)
+	(wire
+		(pts
+			(xy 165.1 41.91) (xy 165.1 36.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95e511bf-f788-4659-b6f4-1a466af5c045")
+	)
+	(wire
+		(pts
+			(xy 252.73 78.74) (xy 252.73 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9908d628-c4dc-4156-b99c-ebfa4a48dbe0")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9acb3738-3f3e-4d56-9c62-91ea71768f5d")
+	)
+	(wire
+		(pts
+			(xy 245.11 76.2) (xy 240.03 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a09f80ae-fa5e-4329-ab43-32ca921a0f82")
+	)
+	(wire
+		(pts
+			(xy 196.85 30.48) (xy 201.93 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a22a2484-ad52-4cb9-8ebe-d78eeb4741b2")
+	)
+	(wire
+		(pts
+			(xy 196.85 43.18) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2d2709f-c973-445a-aad4-3e49986e39a8")
+	)
+	(wire
+		(pts
+			(xy 165.1 41.91) (xy 172.72 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a35a5043-ae67-42f9-b8b8-9f6b3b1a40ee")
+	)
+	(wire
+		(pts
+			(xy 257.81 43.18) (xy 252.73 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a5251ec9-da90-4650-bef2-f1748b17607e")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a52c0fd5-d83c-4a17-96bb-9940bd79909d")
+	)
+	(wire
+		(pts
+			(xy 223.52 149.86) (xy 209.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6748baf-7e15-49ec-a71d-4331ed6dae3a")
+	)
+	(wire
+		(pts
+			(xy 234.95 142.24) (xy 243.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a771734e-e7f0-40c7-b073-cd2be618a30a")
+	)
+	(wire
+		(pts
+			(xy 81.28 100.33) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae5dc716-3b60-41d7-ac97-5d0ea6aeb974")
+	)
+	(wire
+		(pts
+			(xy 139.7 57.15) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aed8ba6b-da2a-4e74-9172-71e87391c7ad")
+	)
+	(polyline
+		(pts
+			(xy 181.356 186.182) (xy 286.258 186.182)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "b29111fa-eb4b-4766-9d2e-a767d3578554")
+	)
+	(wire
+		(pts
+			(xy 196.85 104.14) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b3525548-56c0-4560-ab92-32cef350f2e8")
+	)
+	(wire
+		(pts
+			(xy 252.73 43.18) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b406913c-2ae7-4690-8bf4-c77018bf2955")
+	)
+	(wire
+		(pts
+			(xy 260.35 149.86) (xy 246.38 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70c6f2a-0135-46b2-bd9b-f1face816aaa")
+	)
+	(wire
+		(pts
+			(xy 198.12 142.24) (xy 208.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bebaa3-a4ba-44f4-adf4-8826d7cbf9fc")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97d855d-a9e0-4b4f-8710-dc93b08fc16b")
+	)
+	(polyline
+		(pts
+			(xy 13.462 13.208) (xy 181.864 13.462)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "b994e568-44f2-469e-8452-713d21e64f97")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "baaf436a-2549-4303-ae99-5ba4ff3f3350")
+	)
+	(wire
+		(pts
+			(xy 275.59 48.26) (xy 270.51 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bcc203dc-7368-4f8c-a9b8-81fc893ce410")
+	)
+	(wire
+		(pts
+			(xy 273.05 86.36) (xy 273.05 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bcd3f7db-5980-4399-ae16-e25b64a072e1")
+	)
+	(wire
+		(pts
+			(xy 66.04 41.91) (xy 66.04 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bd854cdd-9dba-4cde-a10c-b1b657a9e27a")
+	)
+	(wire
+		(pts
+			(xy 270.51 73.66) (xy 270.51 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdce59f0-eb7f-435a-b6b8-789371e208de")
+	)
+	(wire
+		(pts
+			(xy 252.73 30.48) (xy 257.81 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bf13a7d2-ce6c-4e3f-a054-489570bc897f")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 96.52 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bf13e247-708a-4dbf-8863-17535f1df134")
+	)
+	(wire
+		(pts
+			(xy 101.6 59.69) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c04e0c33-5a92-4dd5-88b0-6893933b24dc")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 144.78 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c14764a4-efc5-4fda-9382-e70abf21656f")
+	)
+	(wire
+		(pts
+			(xy 213.36 142.24) (xy 213.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27bf579-ab8a-42cc-a39b-5286246f6e9d")
+	)
+	(wire
+		(pts
+			(xy 196.85 58.42) (xy 196.85 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c27e507a-d543-4f82-ab2e-7f9f761c2c9b")
+	)
+	(wire
+		(pts
+			(xy 189.23 76.2) (xy 187.96 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c5d8cf2f-59e9-43e5-8ef9-386de9b7b3a7")
+	)
+	(wire
+		(pts
+			(xy 220.98 152.4) (xy 209.55 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ca2a55-903d-411f-85ff-4dd1af7dded0")
+	)
+	(wire
+		(pts
+			(xy 196.85 76.2) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c80f880a-a0b6-41aa-a338-6daf9827ed3e")
+	)
+	(wire
+		(pts
+			(xy 172.72 54.61) (xy 172.72 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c83b1e71-4ac8-4a32-a8ff-f30d13b5c98c")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ca039a8f-bb8a-440f-a0a0-ca9fc4458944")
+	)
+	(wire
+		(pts
+			(xy 196.85 40.64) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb346dfd-e943-4a73-80a5-03d41bfe400f")
+	)
+	(wire
+		(pts
+			(xy 275.59 86.36) (xy 273.05 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cdc1f7f8-5550-4196-9895-c8137f6e3301")
+	)
+	(wire
+		(pts
+			(xy 270.51 93.98) (xy 270.51 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce2abe40-e379-4f61-ba70-013693ceccf7")
+	)
+	(wire
+		(pts
+			(xy 212.09 88.9) (xy 219.71 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce38425e-c01a-4af3-8250-cbd00c6dfd14")
+	)
+	(wire
+		(pts
+			(xy 144.78 82.55) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cfddd934-41cd-4497-8234-79261e9ada81")
+	)
+	(wire
+		(pts
+			(xy 101.6 54.61) (xy 96.52 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cff0aee4-d857-4264-9ac8-5643eaf049c5")
+	)
+	(wire
+		(pts
+			(xy 267.97 43.18) (xy 275.59 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d12a5ef9-6bcf-483c-bb95-167ccd29d606")
+	)
+	(wire
+		(pts
+			(xy 189.23 96.52) (xy 189.23 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d570fa2b-1ab3-4ed0-9e54-b1d28c7f873d")
+	)
+	(wire
+		(pts
+			(xy 252.73 33.02) (xy 252.73 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d64c6789-6377-4137-939e-d0c328aa3d5a")
+	)
+	(wire
+		(pts
+			(xy 245.11 30.48) (xy 252.73 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d8313ec5-c8bb-4f84-b3fb-c86a9348ccaf")
+	)
+	(wire
+		(pts
+			(xy 257.81 153.67) (xy 257.81 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d848042f-dba3-4344-bf67-5317b479104b")
+	)
+	(wire
+		(pts
+			(xy 101.6 41.91) (xy 81.28 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d87e0e1d-39ff-4483-b425-fdc6831f593d")
+	)
+	(wire
+		(pts
+			(xy 201.93 43.18) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "da7d2455-7f8f-4d99-a53f-1c3331768280")
+	)
+	(wire
+		(pts
+			(xy 189.23 50.8) (xy 189.23 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "daec3999-d186-4fd2-93b3-da64a5b253da")
+	)
+	(wire
+		(pts
+			(xy 189.23 58.42) (xy 189.23 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db9e9fc0-6d8d-4abb-b28b-1d3d8de3bdc6")
+	)
+	(wire
+		(pts
+			(xy 275.59 40.64) (xy 273.05 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dcbd9443-f3f6-48d8-b9d6-f5186bda7128")
+	)
+	(wire
+		(pts
+			(xy 214.63 45.72) (xy 214.63 26.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dda4fe51-8dc4-43d5-947f-6d67cd389db6")
+	)
+	(wire
+		(pts
+			(xy 273.05 40.64) (xy 273.05 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de35faed-17fc-4736-8850-cca695932e73")
+	)
+	(wire
+		(pts
+			(xy 78.74 156.21) (xy 87.63 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decc16ab-c22e-43a7-a242-ca616c9ce4f2")
+	)
+	(wire
+		(pts
+			(xy 208.28 142.24) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38bb088-9c70-4799-b956-95ef8057d868")
+	)
+	(wire
+		(pts
+			(xy 217.17 40.64) (xy 217.17 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e70a1aff-176e-4275-9a87-500789ad1f01")
+	)
+	(wire
+		(pts
+			(xy 275.59 45.72) (xy 270.51 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e71010d9-aad2-45ab-ac8f-d4eb0970dbc8")
+	)
+	(wire
+		(pts
+			(xy 252.73 58.42) (xy 252.73 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e899a54f-8168-4071-b5f7-f59087eaf0e7")
+	)
+	(wire
+		(pts
+			(xy 248.92 154.94) (xy 246.38 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a6e277-5a4a-4452-9359-7dcf9c71ff25")
+	)
+	(wire
+		(pts
+			(xy 189.23 30.48) (xy 196.85 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e9de43d1-98dc-4a12-bac5-cab11f863a9d")
+	)
+	(wire
+		(pts
+			(xy 275.59 93.98) (xy 270.51 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eafb2557-e5b5-4d25-a368-481757161832")
+	)
+	(wire
+		(pts
+			(xy 81.28 41.91) (xy 73.66 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb8e6b02-f209-45bb-8687-4afac76885da")
+	)
+	(wire
+		(pts
+			(xy 78.74 168.91) (xy 87.63 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc40c07-2bf5-47b3-8d86-3182ac493fcc")
+	)
+	(polyline
+		(pts
+			(xy 12.7 186.436) (xy 182.118 186.182)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 134 134 134 1)
+		)
+		(uuid "ebf93ed9-d6c0-4998-b3e2-7a1175a9c080")
+	)
+	(wire
+		(pts
+			(xy 196.85 30.48) (xy 196.85 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ed4e6df0-4d70-4912-b643-970e06634db2")
+	)
+	(wire
+		(pts
+			(xy 212.09 43.18) (xy 219.71 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "edea3b54-0826-4d6f-be67-657f268edd9b")
+	)
+	(wire
+		(pts
+			(xy 66.04 95.25) (xy 66.04 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ee7fc2b8-42d8-47f8-b6a2-fa21f3f400c4")
+	)
+	(wire
+		(pts
+			(xy 219.71 91.44) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1ab51d8-6d5f-4da2-9882-ecc211960ce8")
+	)
+	(wire
+		(pts
+			(xy 219.71 45.72) (xy 214.63 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f386e3b7-161b-42c8-8ea6-1b49f82d9172")
+	)
+	(wire
+		(pts
+			(xy 142.24 26.67) (xy 142.24 21.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f62d19ab-47af-4976-8592-ff7cde633bff")
+	)
+	(wire
+		(pts
+			(xy 214.63 48.26) (xy 214.63 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f723ac20-8aa2-4516-bb96-a2e1ea493338")
+	)
+	(wire
+		(pts
+			(xy 196.85 88.9) (xy 196.85 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f986dd43-a1f5-4d84-922e-ee936eb8856f")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fafb1417-90d7-4695-9269-b43dc1af1ee7")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 165.1 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fbb1b37d-a1b3-4744-b9c1-803e371a3f10")
+	)
+	(wire
+		(pts
+			(xy 245.11 50.8) (xy 245.11 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fbdbc8fc-86c6-4072-9e23-2c682ac0d95c")
+	)
+	(wire
+		(pts
+			(xy 139.7 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe8b225f-8cee-40a4-b5dc-bbe5557a6283")
+	)
+	(wire
+		(pts
+			(xy 273.05 30.48) (xy 267.97 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff2c1711-5da6-4851-a2cc-aac83a4dc1ba")
+	)
+	(wire
+		(pts
+			(xy 78.74 166.37) (xy 87.63 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd8a237-5222-49dc-a65d-4e70ef7a6bc8")
+	)
+	(text "Strain gauge Inputs"
+		(exclude_from_sim no)
+		(at 183.642 14.986 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left top)
+		)
+		(uuid "4273ad91-c5b8-4639-87a1-83a366e933fa")
+	)
+	(text "Amplifier"
+		(exclude_from_sim no)
+		(at 19.05 18.288 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left top)
+		)
+		(uuid "4aa93011-98bb-4bc3-b3e4-db554b1bd67e")
+	)
+	(text "Nucleo-L031K6"
+		(exclude_from_sim no)
+		(at 18.796 112.268 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left top)
+		)
+		(uuid "813030d3-de55-4620-bef0-d9286004b061")
+	)
+	(text "HUB USB"
+		(exclude_from_sim no)
+		(at 185.166 124.206 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left top)
+		)
+		(uuid "9aee7122-04a3-4f64-925e-92dc51071b73")
+	)
+	(label "INNA3"
+		(at 187.96 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "02173bf4-1618-44b4-8e2b-804c3cdfc7ec")
+	)
+	(label "CHIP-SELECT"
+		(at 144.78 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "026cf42e-fc7c-4656-8849-f1a36469e8bf")
+	)
+	(label "ADS_START"
+		(at 78.74 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "073dbd56-58e8-4bb4-a7c6-901d072fe4cf")
+	)
+	(label "ADS_DRDY"
+		(at 144.78 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "11ee51b3-a214-462c-833f-ec55615f51c0")
+	)
+	(label "INPA2"
+		(at 96.52 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "26d29ae8-98b7-4239-991b-510053bbc91f")
+	)
+	(label "ADS_RESET"
+		(at 78.74 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f6d1d35-c921-4a35-9702-7666631868f5")
+	)
+	(label "INPA4"
+		(at 96.52 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "338db3ed-3b57-47b1-b695-e3e32e06aa4c")
+	)
+	(label "INPA2"
+		(at 240.03 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "453ddba5-2b8e-4aa1-aceb-e83c23292035")
+	)
+	(label "ADS_DRDY"
+		(at 78.74 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61483436-858a-414f-98a4-4bb8339c5f02")
+	)
+	(label "CIPO"
+		(at 144.78 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "64fa63ed-a92a-4239-b307-5e61cc0693a4")
+	)
+	(label "INNA1"
+		(at 187.96 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "6920efcf-4915-4619-94ea-89f882dd4411")
+	)
+	(label "INPA3"
+		(at 187.96 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b9e3eae-2988-403a-81cc-f91ac8b86033")
+	)
+	(label "INNA4"
+		(at 96.52 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "71bd8ca1-bc6e-4757-811b-7fa88537cba4")
+	)
+	(label "INNA4"
+		(at 240.03 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "71df4691-aa34-4ad5-b336-8ad8c5e19957")
+	)
+	(label "INPA4"
+		(at 240.03 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "78abe50b-b1b6-4afb-9a19-2bb7dc3c2112")
+	)
+	(label "COPI"
+		(at 144.78 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "821d13c6-b2da-4a83-832b-a7f00f216604")
+	)
+	(label "CHIP-SELECT"
+		(at 78.74 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "974099b1-9aef-4aab-ad6e-6d83c16e274c")
+	)
+	(label "SCK"
+		(at 78.74 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98c8ca08-c244-4d56-bba8-a2267d476a0a")
+	)
+	(label "INNA2"
+		(at 96.52 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ee4da54-a564-4f54-be5d-376988b243e9")
+	)
+	(label "CIPO"
+		(at 78.74 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac82ae17-e612-48a5-99d5-d55ccca96edc")
+	)
+	(label "INNA2"
+		(at 240.03 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad2a4c41-71b1-4789-9047-876f79818e80")
+	)
+	(label "ADS_RESET"
+		(at 144.78 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b51d868e-80fb-460b-a91e-c73d7e6f4239")
+	)
+	(label "INPA1"
+		(at 187.96 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6e04870-b125-44be-814c-62b0dac8b453")
+	)
+	(label "INNA1"
+		(at 96.52 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "b948e50f-f15f-43fc-b67b-d7b8380eb24b")
+	)
+	(label "INPA3"
+		(at 96.52 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "c368124e-32ec-48aa-a1cf-f00cdd68dd46")
+	)
+	(label "COPI"
+		(at 78.74 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb8fb7aa-329d-4048-9ebd-253968945148")
+	)
+	(label "INPA1"
+		(at 96.52 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd35325b-86e0-495c-ab23-edccd323e564")
+	)
+	(label "SCK"
+		(at 144.78 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d14bf058-1c73-4b79-b081-3b9fb5808ad6")
+	)
+	(label "ADS_START"
+		(at 144.78 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e121b75c-6de8-44b8-901f-841fb76b3e6b")
+	)
+	(label "INNA3"
+		(at 96.52 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef46fdc6-9999-4b2b-a5d0-204509140d65")
+	)
+	(global_label "RX_FT232"
+		(shape input)
+		(at 87.63 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26b6071a-3a1d-4f9d-9e43-9d911203a54f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.513 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX_FT232"
+		(shape input)
+		(at 223.52 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e9875f7-cfd5-4731-bf19-81a4d77ddbac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.637 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX_FT232"
+		(shape input)
+		(at 260.35 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "659cc12a-1856-4b6d-907e-b3dab2cfa975")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 272.467 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_FT232"
+		(shape input)
+		(at 87.63 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba15eeb1-f0b4-4950-835a-59572f30dcc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.8154 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_FT232"
+		(shape input)
+		(at 220.98 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3b11c41-8074-4070-94c7-1442ac90ad67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 165.4846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_FT232"
+		(shape input)
+		(at 257.81 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c863d399-63bd-434b-833d-02b3e881cfcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.81 165.4846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 270.51 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00aceaf8-9f42-450e-9505-7b25211106a6")
+		(property "Reference" "#GND024"
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f321e13-7da7-4b06-a49d-e02990516622")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 66.04 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06125493-66f6-434d-b8a0-1651cda47016")
+		(property "Reference" "#GND031"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 102.87 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b721957-b24e-4168-95e3-0c7125e0a782")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 274.32 27.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "079ac193-0ea7-4021-9049-4365f9be9a1c")
+		(property "Reference" "C27"
+			(at 273.685 28.956 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 278.511 28.956 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 278.13 28.9052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 274.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fdb7a00-1502-4248-954d-4344b18f8fe5")
+		)
+		(pin "1"
+			(uuid "f146b728-50ea-4bf7-b6f8-deccc2379729")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e90b7a9-de17-4dcd-acf7-97cbee589423")
+		(property "Reference" "C7"
+			(at 246.126 99.695 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 246.126 104.521 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 246.0752 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01f30036-b937-4a87-93c4-edaaf9c33ccb")
+		)
+		(pin "1"
+			(uuid "46c79a75-f0c2-438e-a457-af0525d48db9")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1018f67c-0a41-4bac-9560-b1480207573a")
+		(property "Reference" "C9"
+			(at 197.866 53.975 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 197.866 58.801 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 197.8152 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2a5a7ad-80e3-4921-9dcf-7cbf9d9d8319")
+		)
+		(pin "1"
+			(uuid "575286ed-73c4-4f0b-a352-ad3ea3c29d1d")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10f166b4-12e1-4e1c-a1b5-f005c0961cc7")
+		(property "Reference" "C17"
+			(at 67.056 55.245 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 67.056 60.071 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 67.0052 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f482f65d-330d-4172-be37-32ecad593be9")
+		)
+		(pin "1"
+			(uuid "523e41ba-0032-47ed-872c-4e62e6d18e36")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 280.67 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a7c362-abb1-480b-a741-b52dd764af8a")
+		(property "Reference" "J4"
+			(at 281.94 45.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 281.94 43.1801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 280.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 280.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "678c0a3c-95bb-408d-a485-17b82808da95")
+		)
+		(pin "3"
+			(uuid "8ea42d2b-32aa-46af-bc0b-9d6d8a54e903")
+		)
+		(pin "1"
+			(uuid "1dc4f096-233b-4c47-b0e1-9f8d7bfc68a4")
+		)
+		(pin "2"
+			(uuid "15f2fdcf-05ba-4748-afce-4d34358f5b6a")
+		)
+		(instances
+			(project ""
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 262.89 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12e1fb1c-8892-434f-bb42-1ce4527d3b55")
+		(property "Reference" "R7"
+			(at 259.08 41.6814 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 259.08 46.482 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 262.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b630dd60-55e2-4dbc-97cc-06d1be47168d")
+		)
+		(pin "1"
+			(uuid "950c3c09-1633-4b63-8e05-22c2fd13d17c")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15612002-2895-4b9b-8e77-a076f7f55468")
+		(property "Reference" "C2"
+			(at 253.746 53.975 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 253.746 58.801 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 253.6952 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a833b0de-0349-4329-8cd7-9071765dc297")
+		)
+		(pin "1"
+			(uuid "8ae2cbb0-6984-4393-87b0-b35e0d4e8271")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 189.23 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1577f30a-6f49-467e-b948-d1a665f187db")
+		(property "Reference" "#GND03"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b0c96d9-0056-4fab-99b3-7ade2270eac7")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 207.01 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "186adae1-cf18-47f9-8c5b-7dc59f81fe2e")
+		(property "Reference" "R4"
+			(at 203.2 87.4014 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 203.2 92.202 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9397905-8ffc-4218-854f-5b2c851b7ad4")
+		)
+		(pin "2"
+			(uuid "89999429-0d96-4ddc-8b25-5ad3529cdbdd")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 204.47 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18cb6295-8dd9-4a85-98d0-0dde2d09eb8e")
+		(property "Reference" "J1"
+			(at 204.47 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HUB-4"
+			(at 204.47 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
+			(at 204.47 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa1792e6-2385-4f07-9736-d967771dbae3")
+		)
+		(pin "1"
+			(uuid "e0c4bafd-0fdd-4750-91f1-2cf7712e3a71")
+		)
+		(pin "3"
+			(uuid "917afb67-9865-4ff9-a371-b0da65960a6f")
+		)
+		(pin "4"
+			(uuid "00eacfb7-c23d-4837-b4d7-08021202910e")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba76111-61ef-4175-8bb0-724aa1a0d94f")
+		(property "Reference" "C13"
+			(at 190.246 99.695 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 190.246 104.521 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 190.1952 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1260641-8e2d-48b2-9b72-bd99f5aefbc3")
+		)
+		(pin "1"
+			(uuid "fa9daf0e-1927-48fd-847c-2225978b5f7b")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ca62738-572a-41ae-83e0-9bc61bf28600")
+		(property "Reference" "C25"
+			(at 207.01 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 207.01 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 207.3148 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1cd27cf7-f08f-4340-8b7d-aafda513032f")
+		)
+		(pin "1"
+			(uuid "85ecd42f-614b-4bef-bec3-b9017ad4120f")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+3V3")
+		(at 142.24 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "222e6db4-ab56-4e6a-a977-866e43e01587")
+		(property "Reference" "#+3V03"
+			(at 142.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 139.7 22.86 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afaed551-5092-412b-a4a9-dadd3c500cd9")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#+3V03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 237.49 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22d63976-7a7e-43fd-a216-feca7de72f7f")
+		(property "Reference" "#GND021"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 137.16 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb1f5d98-011c-4b45-9da9-5675b46409ea")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 241.3 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "247d1de7-9223-4a01-9a4b-a4cd06a1f96f")
+		(property "Reference" "J2"
+			(at 241.3 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HUB-3"
+			(at 241.3 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
+			(at 241.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82db21b8-1ef1-455d-b13c-a9abfba5bf1d")
+		)
+		(pin "1"
+			(uuid "9950bc13-1a14-4d07-a228-39e8cf7a82d9")
+		)
+		(pin "3"
+			(uuid "de039886-5ed9-439b-bc2b-e6984a8f4585")
+		)
+		(pin "4"
+			(uuid "6c378a8b-fae6-47cc-83a4-eb829dddcfa9")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cd8230f-a654-4062-9b28-680235ec746b")
+		(property "Reference" "C3"
+			(at 253.746 99.695 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 253.746 104.521 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 253.6952 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34d5a997-4ff7-4336-badf-722dfb257afe")
+		)
+		(pin "1"
+			(uuid "604c231b-636c-4ddd-a5d0-5fdf34c82c95")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 198.12 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d411847-9c49-4f84-824c-6ec708d1173d")
+		(property "Reference" "C24"
+			(at 196.85 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 196.85 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 197.1548 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2532ad6-f024-44e4-860d-8521ae9f4f20")
+		)
+		(pin "1"
+			(uuid "0ce13702-3aac-489f-812f-22cf2988c2c7")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 262.89 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f96fc7d-1bdc-4dc0-be71-fda6118cc154")
+		(property "Reference" "R6"
+			(at 259.08 28.9814 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 259.08 33.782 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 262.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a77952-1329-47ad-ab91-d4eb514a9b94")
+		)
+		(pin "2"
+			(uuid "4569eaef-0952-4340-9251-11ccc6b15fee")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 214.63 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fb7844e-4627-4f7f-8ec4-e8f04690c5d8")
+		(property "Reference" "#GND09"
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 66.04 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0493ceff-af5d-415c-8f90-ddb0378b6195")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 172.72 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ff9113a-da32-42f8-ae34-2c74f25075cd")
+		(property "Reference" "#GND041"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "964a7c7c-f0c0-41f7-a4da-d68c8949ef93")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 66.04 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33022de1-c1e2-4f23-a3e8-20c67d2c3703")
+		(property "Reference" "#GND030"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91d2057c-92e6-42c1-ac22-da4ba5b45b44")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34b22727-a73c-4510-b3d0-5e86a3f28fc9")
+		(property "Reference" "C14"
+			(at 173.736 50.165 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 173.736 54.991 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 173.6852 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45c827d6-cc35-4c81-b44b-ba31af4be110")
+		)
+		(pin "1"
+			(uuid "34b09031-6c62-4840-8d09-bcc468c84cb0")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+3V3")
+		(at 165.1 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36eb8cab-497c-47ec-abd7-7ea03406d635")
+		(property "Reference" "#+3V05"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 162.56 38.1 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98cd7cf-bf45-4f72-a589-243e6e5a2243")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#+3V05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 214.63 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3764d8a0-a01c-42e5-b7de-d11828047c1f")
+		(property "Reference" "#GND010"
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fea4c65-1ea2-44d8-8c22-b35f809f8d0a")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V")
+		(at 81.28 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39e60b5a-67d8-4266-9054-e746ce4183c2")
+		(property "Reference" "#P+07"
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 78.74 39.37 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e8d46c0-33ce-4f35-b4f1-86c2f7601282")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#P+07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+3V3")
+		(at 101.6 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a56d394-15e1-41c3-a95e-7221ef6920f4")
+		(property "Reference" "#+3V01"
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 99.06 127 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc98657f-7006-49d6-aa1b-93c14de09e9d")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#+3V01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 100.33 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a5cc54e-2213-472b-aea5-09a7b7ce7fed")
+		(property "Reference" "#GND01"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 184.15 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0912bb58-889a-40bf-9429-7566fe72ffdd")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 144.78 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ae32f74-3ce2-4c49-9c37-5617a8e7487d")
+		(property "Reference" "#GND037"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5305c623-dc5a-4156-bda8-b8bd8f2996e6")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 274.32 73.66 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f0cf798-f388-4179-b45b-70e5197e3df3")
+		(property "Reference" "C8"
+			(at 273.685 74.676 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 278.511 74.676 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 278.13 74.6252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 274.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41a39ba7-9d78-4fb3-9893-bb02b74fdd92")
+		)
+		(pin "1"
+			(uuid "7b86747b-4719-4038-8ce9-9287c79d4fd1")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 142.24 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42f98b5a-4491-4575-a58c-2233b722dc71")
+		(property "Reference" "R12"
+			(at 140.7414 35.56 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 145.542 35.56 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5da369ca-3310-460b-834d-46cc111ede41")
+		)
+		(pin "2"
+			(uuid "cd503927-e51f-445f-8b8d-198b417e22b8")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 280.67 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "430f94f1-1aae-4dcc-a016-3cbcf2485d7e")
+		(property "Reference" "#GND08"
+			(at 280.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 76.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad582129-b499-494d-8fa1-2209c4eba731")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43b777bf-f3b1-49bd-954b-606cb36c23d1")
+		(property "Reference" "C19"
+			(at 82.296 55.245 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 82.296 60.071 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 82.2452 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40f16525-2eb9-460c-abc8-ceb7ead83837")
+		)
+		(pin "1"
+			(uuid "d0e7a238-9d28-443b-bac6-f60223824387")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 165.1 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43d0575a-e393-468a-843d-cd8b7109e1e9")
+		(property "Reference" "#GND039"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "494f3f78-659c-4a51-9d34-8126be4b4e2d")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 224.79 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a785a2c-d364-4f64-ab5e-8161068c5084")
+		(property "Reference" "J7"
+			(at 226.06 45.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 226.06 43.1801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 224.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 224.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b6fb3bf4-7700-4311-9f6c-cb3e5e25e060")
+		)
+		(pin "3"
+			(uuid "1c4f8cde-b299-4539-a66c-b5c5ff0d18b5")
+		)
+		(pin "1"
+			(uuid "7c0e03e2-2401-4744-8af8-d0702b8eecae")
+		)
+		(pin "2"
+			(uuid "336ec200-4c42-4204-a3af-2e780e89e6a0")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 81.28 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c53b01b-6405-4b5e-9b9b-e6ed2fd9fffb")
+		(property "Reference" "#GND033"
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15704a52-f18f-4837-a22d-49ce8608fb15")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 262.89 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52dbf5d3-7bc7-4ce6-b9ee-bbd9798bfaf5")
+		(property "Reference" "R9"
+			(at 259.08 87.4014 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 259.08 92.202 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4b6850a-b303-45a2-ab98-cbfdda8becb9")
+		)
+		(pin "2"
+			(uuid "0077aa46-ebe5-4a14-98c2-975c83c7d424")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 26.67 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "534ff3d0-3f29-4db4-b401-0c37ef2104e3")
+		(property "Reference" "C26"
+			(at 217.805 27.686 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 222.631 27.686 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 222.25 27.6352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bcb4ea58-749c-416b-a06a-c0d14edab6cf")
+		)
+		(pin "1"
+			(uuid "df5a4e3c-82cb-45f3-820e-b7798592fe23")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V")
+		(at 251.46 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "545ed2fb-0955-487e-938a-6cceeb8786ae")
+		(property "Reference" "#P+06"
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 246.38 139.7 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77373f5e-16b1-4df6-9521-9ee7a580f2f3")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#P+06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 224.79 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5806c77c-1bff-43df-87f1-99f84a164834")
+		(property "Reference" "#GND012"
+			(at 224.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 29.21 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94069c48-db72-45a2-881a-9ea4fa98ef10")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58bedb31-3718-4bd1-9af9-0d6c0048380f")
+		(property "Reference" "C20"
+			(at 74.676 93.345 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7n"
+			(at 74.676 98.171 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 74.6252 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f43b08-bf6c-44bc-9a4e-db267e43fd36")
+		)
+		(pin "2"
+			(uuid "b6cb0c84-1f63-4950-92e4-9a10bb068aeb")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59659db6-2fdb-4049-b1e6-983a4aa9fd1d")
+		(property "Reference" "C11"
+			(at 197.866 99.695 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 197.866 104.521 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 197.8152 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8e2a0ec-fba5-4aa7-b614-d63b2dece2b5")
+		)
+		(pin "1"
+			(uuid "715c7ada-40e9-47f2-8c9e-798b8851484f")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 224.79 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a8ad641-9838-4be1-92bc-936ad1384048")
+		(property "Reference" "#GND011"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef3ce650-50af-4f4f-9eea-283f57e72b09")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "624797a6-b332-4b05-91ae-6682197950ad")
+		(property "Reference" "C23"
+			(at 242.57 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 242.57 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 242.8748 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb1b159a-354d-4267-90cc-021a8edb3dbb")
+		)
+		(pin "1"
+			(uuid "34b65fff-f2e7-4f34-90c5-e3e01bb96d08")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 270.51 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64e2591a-af4b-4f79-8034-f4d7be7ba3d7")
+		(property "Reference" "#GND023"
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4932524f-b436-4a2c-89bb-b138049279f0")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "655bbaab-426b-4fd2-bfb1-96ba1238dd65")
+		(property "Reference" "C18"
+			(at 67.056 90.805 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 67.056 95.631 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 67.0052 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ebbf20f-2a9a-4fd4-9dce-489aaf5c2e27")
+		)
+		(pin "1"
+			(uuid "e924bacb-679b-48d7-8adc-67ccd45c0459")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 102.87 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "655e2bc5-8832-4551-89e9-3f5df1806e0e")
+		(property "Reference" "#GND02"
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a41dda4-74d5-4486-8960-818d0fb6a819")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "696f424e-6ec8-42b5-8537-8e93a74c35ea")
+		(property "Reference" "C6"
+			(at 253.746 81.915 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 253.746 86.741 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 253.6952 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50077cce-cd9f-45ed-ad16-f1440d6ba811")
+		)
+		(pin "1"
+			(uuid "b1c09031-814b-410f-bb8b-100c44331feb")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 189.23 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aaf4e3d-0641-4054-8926-5628655427f6")
+		(property "Reference" "#GND04"
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "014ca210-b4e7-46b9-8863-c47975a28b29")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eb373fa-56dd-4f53-a3eb-818d42051ee4")
+		(property "Reference" "C1"
+			(at 253.746 36.195 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 253.746 41.021 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 253.6952 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1237e575-4551-4cfb-b9e9-ca4ab58a365c")
+		)
+		(pin "1"
+			(uuid "11594cc9-026a-4b86-a6ce-a381a49a1961")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 207.01 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "777cb1af-5bf4-4c32-9209-1100d6df387c")
+		(property "Reference" "R3"
+			(at 203.2 74.7014 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 203.2 79.502 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ed15b3f-20db-469d-89f8-e71e66d699ff")
+		)
+		(pin "2"
+			(uuid "299fab9f-9b04-4a70-add0-4f69f86eaaab")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 207.01 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a4d881a-298e-49b4-837e-06b12a9a7d03")
+		(property "Reference" "R2"
+			(at 203.2 41.6814 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 203.2 46.482 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "999bb1c2-9e1a-4540-9365-68630b945875")
+		)
+		(pin "1"
+			(uuid "f96967af-9cbe-41f8-a2e8-67c30691055b")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c1fec34-e22e-48ca-b542-b10617019311")
+		(property "Reference" "C5"
+			(at 246.126 53.975 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 246.126 58.801 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 246.0752 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ae7ca06-27e9-4026-8d47-26c82f3478d8")
+		)
+		(pin "1"
+			(uuid "4d1ceb7d-c0f0-4300-a17f-16773a0685a0")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 210.82 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dde5359-fd45-42e3-b452-886b510d5afa")
+		(property "Reference" "#GND014"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f7de247-8833-4aa4-ace4-07034faf33d6")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8073052b-14d2-49e7-a27b-ac6027f2a6f0")
+		(property "Reference" "C12"
+			(at 197.866 81.915 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 197.866 86.741 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 197.8152 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d840b4d1-9e38-4929-b156-8b7540e10cc4")
+		)
+		(pin "1"
+			(uuid "e44fcb10-eb67-46e3-b654-a43ac49cbbde")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V")
+		(at 270.51 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81fa25cd-07be-4386-b337-6cb079de525a")
+		(property "Reference" "#P+05"
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 267.97 73.66 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca75e95-c549-434e-b72c-b236e4c639e4")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#P+05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 207.01 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84989ad6-e8ca-4894-9425-5dd7b438eb19")
+		(property "Reference" "R1"
+			(at 203.2 28.9814 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 203.2 33.782 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c083cb5-0f82-4739-8c03-2d1f4ebed2e5")
+		)
+		(pin "1"
+			(uuid "d0cbed8a-d838-4369-b406-e48721ad3c44")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V")
+		(at 214.63 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cb8c68f-9457-4160-9b01-90a4aced81a2")
+		(property "Reference" "#P+01"
+			(at 214.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 212.09 27.94 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6148c2-db89-4849-94c7-e69d85a33a4e")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#P+01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V")
+		(at 270.51 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a26cd7c2-15de-41c2-8c1a-418f2b410f58")
+		(property "Reference" "#P+04"
+			(at 270.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 267.97 27.94 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6b084e5-9c1b-493d-b604-6c0d0f25bc99")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#P+04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V")
+		(at 215.9 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3ee3674-1ae3-4c1a-b456-0c3c2c44d975")
+		(property "Reference" "#P+09"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 210.82 139.7 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f07d600-fc3c-4d30-939d-5bd9064a2008")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#P+09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 248.92 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5b981c4-e280-472c-98c2-35c81eb16398")
+		(property "Reference" "#GND025"
+			(at 248.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 160.02 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84c72e62-a18d-4edc-877b-7699efde36ab")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 73.66 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7879c03-546a-4a5f-86df-5174f2f583a3")
+		(property "Reference" "#GND032"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 67.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06bbc0fc-f084-40b9-a014-e2928775bb71")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 252.73 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab568ffe-ea9c-46dc-afe0-5b5a51031ea3")
+		(property "Reference" "#GND018"
+			(at 252.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 66.04 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fbb0e86-2381-4ff6-883e-15b6e48d471e")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 280.67 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae4aeaf3-33d7-48ad-b7eb-e7ac714666f3")
+		(property "Reference" "#GND013"
+			(at 280.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 30.48 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf50c95-6237-4e3b-b264-ee2ea90425ce")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 212.09 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af55c7b5-839c-47ae-82ce-ba05346622ba")
+		(property "Reference" "#GND022"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 160.02 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ff549d8-3f35-4f38-918c-d6226b3705c8")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 96.52 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3a01a57-64e2-45c0-859c-843849eade12")
+		(property "Reference" "#GND034"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c4d63f-c39e-4038-a6cc-da312e51525b")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 245.11 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3cf1221-7204-4285-9e32-26a045ff5abf")
+		(property "Reference" "#GND015"
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e0745e0-35b5-4948-bde0-8112c49811c8")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 196.85 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd281a02-6406-481f-aae9-461fc6283a81")
+		(property "Reference" "#GND06"
+			(at 196.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13ef0512-27e8-4039-a6df-3618ead12890")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 73.66 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bede8253-62a1-43a1-bf52-7dfc39b97421")
+		(property "Reference" "C16"
+			(at 217.805 74.676 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 222.631 74.676 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 222.25 74.6252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c657a323-6e5f-449f-a67c-401c663ae116")
+		)
+		(pin "1"
+			(uuid "f13b46a3-e4ff-4618-9859-10a2a3cc451f")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 224.79 91.44 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1fc4c1e-bdf9-4ebe-97b1-90e27d2640eb")
+		(property "Reference" "J6"
+			(at 226.06 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 226.06 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "78e02b17-18a1-48fd-93d9-49f022f7a6c2")
+		)
+		(pin "3"
+			(uuid "da4bff78-2040-4dc9-8021-b8614fbe9294")
+		)
+		(pin "1"
+			(uuid "f7a37fc8-0523-4383-9ea9-e37edf011a10")
+		)
+		(pin "2"
+			(uuid "fe17f716-b719-4dee-9f2e-eb52f1c13bfb")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 196.85 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d81fab-0b85-4cd2-badc-cf6931086978")
+		(property "Reference" "#GND05"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2ed447c-6bd4-46d0-97e7-803df36b523a")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c91ec52a-a450-44c0-85db-1807ea8f747d")
+		(property "Reference" "C15"
+			(at 74.676 55.245 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 74.676 60.071 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 74.6252 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8df74cc5-c38f-4ad1-8df9-e831401594e9")
+		)
+		(pin "1"
+			(uuid "88ebda5c-2480-4db9-ba62-c0d560dcb791")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 252.73 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf06dc93-b429-4193-bba8-a9d4a27d16b3")
+		(property "Reference" "#GND019"
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fb1faee-2172-4a3b-85d2-9b03d4b265f3")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 200.66 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfb84b68-49d8-418e-8838-20df9c6189ff")
+		(property "Reference" "#GND017"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a6650bf-166f-40b1-ab68-c9d34f918185")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V")
+		(at 107.95 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3bdfc72-f971-46a3-bea4-817cdaaba2d0")
+		(property "Reference" "#P+03"
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 105.41 128.27 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0366b74-389f-47df-bbe5-e03c2cdf9b0c")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#P+03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:ADS1262")
+		(at 106.68 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8202dab-7d0b-4a2d-b71a-045084022f43")
+		(property "Reference" "IC4"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "ADS1262"
+			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Humanoid:ADS1262IPW"
+			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "142d95ea-d910-4d29-ad80-c95173aafa69")
+		)
+		(pin "19"
+			(uuid "c884fb8a-8ff3-4d37-99a4-873009a9f348")
+		)
+		(pin "2"
+			(uuid "fd91c231-bed5-454d-9891-eb0a69b1c6fc")
+		)
+		(pin "20"
+			(uuid "ddb7d2b9-936e-4201-97b1-51a4fc5e604e")
+		)
+		(pin "21"
+			(uuid "46ba64e2-2ded-45c5-8400-1d6975323479")
+		)
+		(pin "17"
+			(uuid "49320cfe-b8b9-4cab-b328-b56ea119777f")
+		)
+		(pin "23"
+			(uuid "70034ddf-df82-4efa-9388-9ee0bfbcbe1b")
+		)
+		(pin "24"
+			(uuid "16cc3e1b-e017-471f-a3c8-fbc6e5ed14fb")
+		)
+		(pin "25"
+			(uuid "7eee2531-1dce-4598-827d-29288dfa3e9a")
+		)
+		(pin "26"
+			(uuid "061621ac-2539-4217-a179-f20bfef053e4")
+		)
+		(pin "1"
+			(uuid "0ecb9afa-920f-46dd-adba-085a4f23c7fe")
+		)
+		(pin "18"
+			(uuid "6f171e0a-8e19-4c7a-a41e-4d01802ebea6")
+		)
+		(pin "22"
+			(uuid "32728df9-4755-4c58-9894-864b93dc04c4")
+		)
+		(pin "11"
+			(uuid "5090cb79-19eb-4ba2-a511-e6967a0b457e")
+		)
+		(pin "15"
+			(uuid "27d8daff-4b7a-468c-903d-23fe099e2fe5")
+		)
+		(pin "12"
+			(uuid "55c270ce-6742-4b80-bbca-b0dd95aca8d8")
+		)
+		(pin "13"
+			(uuid "29bf5480-3af2-48a3-8708-3eeaa873a2bf")
+		)
+		(pin "14"
+			(uuid "997ccb63-b490-48fa-86a0-6b73910508d2")
+		)
+		(pin "16"
+			(uuid "4531577b-6a74-4c89-8808-6b60c363822a")
+		)
+		(pin "4"
+			(uuid "232245b9-4a79-4a54-b671-f810b0a6f905")
+		)
+		(pin "7"
+			(uuid "035c4c29-cf7d-40c5-8422-6022b53e0903")
+		)
+		(pin "28"
+			(uuid "8d8757fa-de8e-4f7b-ba3c-53071f6682fd")
+		)
+		(pin "3"
+			(uuid "8056e978-5a6d-4720-9a4d-5d37d5ce6998")
+		)
+		(pin "8"
+			(uuid "ab9f0259-1002-43e9-8f77-fbb207a2ee82")
+		)
+		(pin "6"
+			(uuid "936ca543-1274-4059-8e1d-7c89ab8e7935")
+		)
+		(pin "27"
+			(uuid "4ea85437-40ad-45ae-9ce0-a9fefcc05309")
+		)
+		(pin "9"
+			(uuid "2e622e09-64ec-4e47-a1fc-64dbcd1d3004")
+		)
+		(pin "5"
+			(uuid "41f03186-e059-425a-8e34-41c429d0198c")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2db3e91-c8b7-47a3-a790-5e3f4a3f5cb9")
+		(property "Reference" "C4"
+			(at 197.866 36.195 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 197.866 41.021 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 197.8152 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "917b95d9-fd36-4a78-9678-023c236ec1b7")
+		)
+		(pin "1"
+			(uuid "86b42771-8ad3-463a-8802-82f6fdcd0158")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 280.67 91.44 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e942749d-3935-4a7a-a96b-b282c11dbc00")
+		(property "Reference" "J5"
+			(at 281.94 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 281.94 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 280.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 280.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9da9f6bf-a831-40fb-8616-0163bfcc8f9a")
+		)
+		(pin "3"
+			(uuid "bae3882e-d9a5-47f1-9b1a-6326b407031e")
+		)
+		(pin "1"
+			(uuid "f208cd4a-23e1-4669-9a92-cbaa0da6afd3")
+		)
+		(pin "2"
+			(uuid "f7d45fbf-e1ed-4bce-947c-97bde91ec112")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb537a83-7aac-46fa-bd80-04022a749bdb")
+		(property "Reference" "C21"
+			(at 166.116 50.165 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 166.116 54.991 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 166.0652 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e095a47a-82e7-4fdb-8974-23794ecd89ae")
+		)
+		(pin "1"
+			(uuid "63cc05e5-68ea-4da0-8a9f-c901cebd5d93")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:Arduino_Nano_v3.x")
+		(at 100.33 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee26fba5-981c-44b8-afc8-7a8a6d73e980")
+		(property "Reference" "A1"
+			(at 105.0641 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Nucleo_st"
+			(at 105.0641 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Arduino_Nano"
+			(at 100.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+			(at 100.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arduino Nano v3.x"
+			(at 100.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b4a329c6-6476-4e3e-b5e7-ce344f13eb4a")
+		)
+		(pin "15"
+			(uuid "8a4b9bb1-c887-42c4-9ad1-89cfae26d0cd")
+		)
+		(pin "17"
+			(uuid "14231af8-7be8-45f0-9ce9-61717a24719e")
+		)
+		(pin "16"
+			(uuid "7d0ad037-b8fb-4381-8bf1-2a1573bc61a1")
+		)
+		(pin "19"
+			(uuid "cb89eafb-a72e-4718-8cab-7e4c6f6c745d")
+		)
+		(pin "27"
+			(uuid "3a31c9a0-a5a0-4ab6-a82c-6146d5877b00")
+		)
+		(pin "30"
+			(uuid "621d068f-4fed-479b-a38c-64298926d5f7")
+		)
+		(pin "1"
+			(uuid "b74739a3-f22f-4061-8a03-27a23c489a90")
+		)
+		(pin "24"
+			(uuid "0e4afac2-d05b-45f5-b5b5-757f3aa74f9b")
+		)
+		(pin "14"
+			(uuid "a877b351-9481-4e43-b8cb-6659f49ee9f1")
+		)
+		(pin "9"
+			(uuid "aae7037d-fde9-44d8-a365-805918b1e388")
+		)
+		(pin "12"
+			(uuid "94962456-5f12-4e56-9366-305f40cf9a45")
+		)
+		(pin "28"
+			(uuid "d24142c7-952a-4673-b648-ee7d84f83f9e")
+		)
+		(pin "22"
+			(uuid "128f9f00-485d-47b7-8b2a-db62de8d9806")
+		)
+		(pin "6"
+			(uuid "cb4aac52-2e03-4c7b-a3de-dc1bdac15aed")
+		)
+		(pin "21"
+			(uuid "441ed144-566f-4e89-937e-b68fd9c583c7")
+		)
+		(pin "10"
+			(uuid "0a6ef1ca-155d-43d1-9739-85d18c178421")
+		)
+		(pin "4"
+			(uuid "c97d9d18-5851-48f9-968e-1137f8857d34")
+		)
+		(pin "13"
+			(uuid "2474f15b-d86b-4d62-9217-e53296782450")
+		)
+		(pin "25"
+			(uuid "9904009a-f867-4ae2-82e1-93b6fc1fef9e")
+		)
+		(pin "26"
+			(uuid "2cc69c9b-4ab0-4db3-827f-5ec7f1b3b025")
+		)
+		(pin "8"
+			(uuid "66a9ea9b-8d67-480f-957e-5e08920a4212")
+		)
+		(pin "18"
+			(uuid "5f90a7b5-d3a5-425f-8159-4a19a5b064a1")
+		)
+		(pin "5"
+			(uuid "f86d00a5-858d-462f-9623-9db6bfac6ad0")
+		)
+		(pin "23"
+			(uuid "ff22e050-9274-47a2-acdd-2e69b0ed7b06")
+		)
+		(pin "2"
+			(uuid "8ae8e481-099d-487f-bd78-c006e79f5d15")
+		)
+		(pin "29"
+			(uuid "824e762f-5d0c-49df-8409-60c487ead944")
+		)
+		(pin "11"
+			(uuid "214580d9-8e7c-42c1-8d36-87b4d5b1308c")
+		)
+		(pin "7"
+			(uuid "1e1038fa-d749-4a5d-91c7-71b5dee8011e")
+		)
+		(pin "20"
+			(uuid "717c36a4-62e8-42d9-bcf8-b8342c0a7055")
+		)
+		(instances
+			(project ""
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 245.11 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef735282-83d2-458d-aa7d-7b4c62cbb178")
+		(property "Reference" "#GND016"
+			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13a08c15-ab5e-477a-9e59-ebac7649bb95")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:+5V")
+		(at 214.63 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f52007eb-308c-459e-a32b-f17e395df977")
+		(property "Reference" "#P+02"
+			(at 214.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 212.09 73.66 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aba5a56-9aba-4218-9056-5d36ec1d11bb")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#P+02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa15b27c-1a63-4350-996c-978dd0a30b1f")
+		(property "Reference" "C22"
+			(at 233.68 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 233.68 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 233.9848 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97a82e07-0f14-471b-be57-ace1ecee4606")
+		)
+		(pin "1"
+			(uuid "26270dd9-351a-417d-8677-5acc88981e58")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa32f3d6-1ae8-4281-8fdf-b417424d0850")
+		(property "Reference" "C10"
+			(at 190.246 53.975 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 190.246 58.801 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 190.1952 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e649be9-c92c-4dea-a677-79026d2df227")
+		)
+		(pin "1"
+			(uuid "befdda2f-633c-4360-9631-d8c6436ac00c")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:GND")
+		(at 246.38 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc9c5c32-ac85-461d-8cab-1550f8699f33")
+		(property "Reference" "#GND020"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 137.16 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8441dc56-a9c7-4f5d-bfde-989c25a712eb")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "#GND020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SUSTAINA-StrainGauge-Sensing-Board-eagle-import:R-US_R0603")
+		(at 262.89 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fea62233-6758-4363-9982-a7979b82d1a8")
+		(property "Reference" "R8"
+			(at 259.08 74.7014 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 259.08 79.502 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 262.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7eb73c4-9f19-469e-837d-9a1aff39f8b6")
+		)
+		(pin "1"
+			(uuid "b4f5c9ba-feca-4025-b32e-6dc4572c7053")
+		)
+		(instances
+			(project "strain gauge"
+				(path "/c7acfeaf-365e-4107-9e74-74c83d2b4de2"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
