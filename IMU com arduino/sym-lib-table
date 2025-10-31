@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mm845x")(type "KiCad")(uri "C:/Users/robof/OneDrive/Área de Trabalho/Henrique Teixeira/I.C/mm845x.kicad_sym")(options "")(descr ""))
+  (lib (name "mm845x bib")(type "KiCad")(uri "C:/Users/robof/OneDrive/Área de Trabalho/Henrique Teixeira/I.C/mm845x bib.kicad_sym")(options "")(descr ""))
+)

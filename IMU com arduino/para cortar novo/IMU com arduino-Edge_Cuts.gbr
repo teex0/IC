@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*%
+%TF.CreationDate,2025-02-13T21:26:19-03:00*%
+%TF.ProjectId,IMU com arduino,494d5520-636f-46d2-9061-726475696e6f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2025-02-13 21:26:19*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X129413000Y-68199000D02*
+X165862000Y-68199000D01*
+X165862000Y-117642000D01*
+X129413000Y-117642000D01*
+X129413000Y-68199000D01*
+M02*
